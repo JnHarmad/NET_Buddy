@@ -1,0 +1,49 @@
+# Binaries and objects
+bin/
+obj/
+*.dll
+*.exe
+*.so
+*.dylib
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# Settings
+appsettings.Development.json
+appsettings.Local.json
+*.user
+*.usertasks
+
+# Sensitive data
+*.key
+*.pem
+*.p12
+.env
+.env.local
+
+# Study materials (too large)
+materials/
+!materials/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.nuget/
+
+# MacOS
+.DS_Store
+.AppleDouble
+
+# Temporary files
+*.tmp
+*.temp
